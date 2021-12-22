@@ -1,9 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="caf417e2-0688-4996-bb79-57778bb84dcf" name="Changes" comment="init">
+    <list default="true" id="caf417e2-0688-4996-bb79-57778bb84dcf" name="Changes" comment="とりあえず完成">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/gmeter.js" beforeDir="false" afterPath="$PROJECT_DIR$/gmeter.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,7 +29,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="javascript.nodejs.core.library.configured.version" value="16.13.1" />
     <property name="javascript.nodejs.core.library.typings.version" value="16.11.15" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/routes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path" value="wsl://Ubuntu-20.04@/home/hidetoshi/.nvm/versions/node/v16.13.1/bin/node" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -56,7 +58,8 @@
       <option name="presentableId" value="Default" />
       <updated>1640076669384</updated>
       <workItem from="1640076671612" duration="6870000" />
-      <workItem from="1640164001127" duration="4270000" />
+      <workItem from="1640164001127" duration="5419000" />
+      <workItem from="1640169994180" duration="87000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1640164763501</created>
@@ -65,7 +68,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640164763501</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="とりあえず完成">
+      <created>1640168500133</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1640168500133</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -84,6 +94,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="とりあえず完成" />
+    <option name="LAST_COMMIT_MESSAGE" value="とりあえず完成" />
   </component>
 </project>
