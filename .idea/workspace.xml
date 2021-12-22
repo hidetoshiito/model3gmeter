@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="caf417e2-0688-4996-bb79-57778bb84dcf" name="Changes" comment="CORS許可">
+    <list default="true" id="caf417e2-0688-4996-bb79-57778bb84dcf" name="Changes" comment="ID返却するように&#10;ダミー値返却（一時対応）">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gmeter.js" beforeDir="false" afterPath="$PROJECT_DIR$/gmeter.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,7 +58,7 @@
       <workItem from="1640076671612" duration="6870000" />
       <workItem from="1640164001127" duration="5419000" />
       <workItem from="1640169994180" duration="337000" />
-      <workItem from="1640170644243" duration="1248000" />
+      <workItem from="1640170644243" duration="1570000" />
     </task>
     <task id="LOCAL-00001" summary="init">
       <created>1640164763501</created>
@@ -82,7 +81,14 @@
       <option name="project" value="LOCAL" />
       <updated>1640170137806</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="ID返却するように&#10;ダミー値返却（一時対応）">
+      <created>1640177528467</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1640177528467</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -103,6 +109,7 @@
     <MESSAGE value="init" />
     <MESSAGE value="とりあえず完成" />
     <MESSAGE value="CORS許可" />
-    <option name="LAST_COMMIT_MESSAGE" value="CORS許可" />
+    <MESSAGE value="ID返却するように&#10;ダミー値返却（一時対応）" />
+    <option name="LAST_COMMIT_MESSAGE" value="ID返却するように&#10;ダミー値返却（一時対応）" />
   </component>
 </project>
