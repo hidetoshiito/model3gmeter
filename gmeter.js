@@ -9,11 +9,12 @@ function drive_state(id, token, res) {
     axios.get(`https://owner-api.teslamotors.com/api/1/vehicles/${id}/data_request/drive_state`, { headers: { Authorization: `Bearer ${token}` } })
         .then((response) => {
             console.dir(response.data.response);
-            res.json(response.data.response);
+            res.json({drive_state: response.data.response, id: id});
         })
         .catch((error) => {
             console.dir(error.response.data);
-            res.json({'result': 'error', 'msg':'drive_state error'});
+            // res.json({result: 'error', msg:'drive_state error', drive_state: error.response.data.response, id: id});
+            res.json({result: 'error', msg:'drive_state error', drive_state: {speed: 10, heading: 10, timestamp: 111}, id: id});
         });
 }
 
