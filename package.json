@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/hidetoshiito/model3gmeter/issues"
   },
-  "homepage": "https://github.com/hidetoshiito/model3gmeter#readme"
+  "homepage": "https://github.com/hidetoshiito/model3gmeter#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "express": "^4.17.2"
+  }
 }
