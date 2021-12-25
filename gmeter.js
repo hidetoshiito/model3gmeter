@@ -13,12 +13,7 @@ function drive_state(id, token, res) {
         })
         .catch((error) => {
             console.dir(error.response.data);
-            // res.json({result: 'error', msg:'drive_state error', drive_state: error.response.data.response, id: id});
-            const date = new Date();
-            const timestamp = date.getTime();
-            const speed = Math.floor(Math.random() * 120);
-            const heading = Math.floor(Math.random() * 360);
-            res.json({result: 'error', msg:'drive_state error', drive_state: {speed: speed, heading: heading, timestamp: timestamp}, id: id});
+            res.json({result: 'error', msg:'drive_state error', drive_state: error.response.data.response, id: id});
         });
 }
 
