@@ -25,6 +25,13 @@ app.get("/", (req, res) =>{
     const token = req.query.token;
     let id = req.query.id;
 
+    // token指定がなければ終了(ヘルスチェック対応で何もしない=200 OK)
+    if (!token) {
+        console.log('token指定なし');
+        res.json({});
+        return
+    }
+
     // idがあればID取得を端折る
     if (id) {
         drive_state(id, token, res);
